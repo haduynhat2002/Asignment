@@ -1,0 +1,42 @@
+﻿
+<!DOCTYPE html>
+<html>
+@{
+    ViewBag.Title = "Index";
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+
+    <form action="/Home/Store" method="post">
+
+        <p>
+            <label>Mã sinh viên</label>
+            <input class="w3-input" type="text">
+
+        </p>
+
+        <p>
+            <label>Hình thức nộp phạt</label><br />
+            <select class="w3-select" name="option">
+                <option value="1">Chống đẩy</option>
+                <option value="2">Đóng tiền</option>
+            </select>
+        </p>
+
+        <p>
+            <label>Số tiền nộp phạt</label>
+            <input class="w3-input " type="text">
+
+        </p>
+
+        <p>
+            <button class="w3-button w3-section w3-teal w3-ripple"> Submit </button>
+        </p>
+
+    </form>
+</body>
+</html>
+
+
